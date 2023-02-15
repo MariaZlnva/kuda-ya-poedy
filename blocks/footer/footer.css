@@ -1,0 +1,16 @@
+.footer {
+  background-color: #fecda7;
+  width: 100%;
+  min-height: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+@media screen and (min-width: 1281px) {
+  .footer {
+    min-height: 15vw;
+  }
+}

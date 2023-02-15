@@ -1,0 +1,23 @@
+.people__table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .people__table {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .people__table {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .people__table {
+    grid-template-columns: 1fr;
+  }
+}

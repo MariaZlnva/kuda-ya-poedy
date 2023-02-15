@@ -1,0 +1,6 @@
+.hover-link:hover {
+  opacity: 0.4;
+  transition-timing-function: easy;
+  transition-duration: 0.1s;
+  transition-delay: 0.1s;
+}

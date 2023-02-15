@@ -1,0 +1,19 @@
+.people__cell-title {
+  margin: 0 0 34px 0;
+  font-size: 12px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1300px) {
+  .people__cell-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .people__cell-title {
+    margin-bottom: 15px;
+  }
+}

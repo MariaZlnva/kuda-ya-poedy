@@ -1,0 +1,19 @@
+.footer__copyright-item {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 770px) {
+  .footer__copyright-item {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .footer__copyright-item {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+}

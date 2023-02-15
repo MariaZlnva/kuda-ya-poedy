@@ -1,0 +1,17 @@
+.header {
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 1300px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background-color: white;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    font-size: 12px;
+  }
+}

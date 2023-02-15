@@ -1,0 +1,20 @@
+.intro__image {
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../images/intro-image.jpeg");
+  transition: transform 0.3s linear;
+}
+
+.intro__image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 570px) {
+  .intro__image {
+    padding-bottom: 60%;
+  }
+}
